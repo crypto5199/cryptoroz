@@ -8,7 +8,7 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
     -C ~/.celestia-app/data/
 
 ------------------------------------------------------------------
-منتظر باشید تا گره های  بلوکها رااززنجیره بلوکی Celestia دانلود کند
+منتظر باشید تا گرههای  بلوکها رااززنجیره بلوکی Celestia دانلود کند
 
 --------------------------------------------------
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
