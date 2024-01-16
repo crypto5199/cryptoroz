@@ -14,7 +14,7 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 -------------------------------------------------
-CTRL+C را فشار دهید  لاگها تامتوقف شوند
+CTRL+C را فشار دهید تا لاگها تامتوقف شوند
 
 ---------------------------------
 قبل از ادامه، با کد زیر مطمئن بشید که بh کامل با شبکه همگام شده اید 
